@@ -29,11 +29,6 @@ class MonascaClientPlugin(client_plugin.ClientPlugin):
 
     VERSION = '2_0'
 
-    @staticmethod
-    def is_available():
-        return client is not None
-
-    # Below function is copied from common.client_plugin in liberty
     def _get_client_args(self,
                          service_name,
                          service_type):
