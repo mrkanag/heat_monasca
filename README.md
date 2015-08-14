@@ -33,10 +33,15 @@ Once the heat is installed, below environment variables would help to run
 heat and moasca commands.
 
 ``export OS_TENANT_NAME=mini-mon
+
 export OS_PROJECT_NAME=mini-mon
+
 export HEAT_URL=http://192.168.10.10:8004/v1/<mini-mon project id>
+
 export OS_USERNAME=mini-mon
+
 export OS_PASSWORD=password
+
 export OS_AUTH_URL=http://192.168.10.5:35357/v2.0``
 
 ### Install the Monasca plugin in Heat
